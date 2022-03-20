@@ -1,0 +1,176 @@
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5;
+}
+body{
+    /* padding: 1rem; */
+}
+
+main{
+    display: grid;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height:100% ;
+    animation-name: scaleOut;
+    animation-duration: 5s;
+   
+}
+
+.mainBaner{
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    box-sizing: border-box;
+    /* padding: 1rem; */
+    overflow: hidden;
+}
+
+
+/* @keyframes scaleOut {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+    }
+    80%{
+        transform: scale(2)
+    }
+    100%{
+        transform: scale(1)
+    }
+} */
+
+.mainText{
+    position: absolute;
+    background-color: rgba(255, 255, 255,.5);
+    padding: 2rem;
+    animation-duration: .5s;
+    animation-name: dropfromup;
+}
+
+
+
+@keyframes dropfromup{
+
+    0%{
+opacity: 0;
+transform: translateY(-10rem);
+    }
+
+    50%{
+
+    }
+
+    80%{
+transform: translateY(.4rem);
+    }
+
+    100%{
+opacity: 1;
+text-replace: translateY(-2rem);
+    }
+}
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5;
+}
+body{
+    /* padding: 1rem; */
+}
+
+main{
+    display: grid;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height:100% ;
+    animation-name: scaleOut;
+    animation-duration: 5s;
+   
+}
+
+.mainBaner{
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    box-sizing: border-box;
+    /* padding: 1rem; */
+    overflow: hidden;
+}
+
+
+/* @keyframes scaleOut {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+    }
+    80%{
+        transform: scale(2)
+    }
+    100%{
+        transform: scale(1)
+    }
+} */
+
+.mainText{
+    position: absolute;
+    background-color: rgba(255, 255, 255,.5);
+    padding: 2rem;
+    animation-duration: .5s;
+    animation-name: dropfromup;
+}
+
+
+
+@keyframes dropfromup{
+
+    0%{
+opacity: 0;
+transform: translateY(-10rem);
+    }
+
+    50%{
+
+    }
+
+    80%{
+transform: translateY(.4rem);
+    }
+
+    100%{
+opacity: 1;
+text-replace: translateY(-2rem);
+    }
+}
